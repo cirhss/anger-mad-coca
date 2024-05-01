@@ -3,9 +3,9 @@ library(tidyverse)
 library(ggthemes)
 library(ggtext)
 library(ggrepel)
-library(udpipe)
+# library(udpipe)
 
-ud_eng <- udpipe::udpipe_load_model("english-ewt-ud-2.5-191206.udpipe")
+# ud_eng <- udpipe::udpipe_load_model("english-ewt-ud-2.5-191206.udpipe")
 
 genre <- c("BLOG", "WEB", "TV/M", "SPOK", "FIC", "MAG", "NEWS", "ACAD")
 genre <- factor(genre, levels = c("BLOG", "WEB", "TV/M", "SPOK", "FIC", "MAG", "NEWS", "ACAD"))
@@ -35,7 +35,7 @@ emofreq |>
        fill = "Words",
        x = "Genres in COCA",
        subtitle = "Relative frequency of “angry” and “mad” across genres")
-# ggsave("../figs/01-fig3-1-relfreq-angry-mad.png",
+# ggsave("figs/01-fig3-1-relfreq-angry-mad.png",
 #        units = "in",
 #        width = 7,
 #        height = 4,
@@ -71,7 +71,7 @@ grmlong |>
        fill = "Inflectional forms",
        x = "Genres in COCA",
        subtitle = "Inflectional forms of the verbal lemma ANGER")
-# ggsave("../figs/02-fig3-2-anger-gram-profile.png",
+# ggsave("figs/02-fig3-2-anger-gram-profile.png",
 #        units = "in",
 #        width = 8,
 #        height = 5,
@@ -89,7 +89,7 @@ grmlong |>
        fill = "Inflectional forms",
        x = "Genres in COCA",
        subtitle = "Inflectional forms of the verbal lemma MADDEN")
-# ggsave("../figs/03-fig3-3-madden-gram-profile.png",
+# ggsave("figs/03-fig3-3-madden-gram-profile.png",
 #        units = "in",
 #        width = 8,
 #        height = 5,
@@ -108,7 +108,7 @@ grmlong |>
        fill = "Verb lemmas",
        x = "Genres in COCA",
        subtitle = "Distribution of the base verbal forms of “anger” and “madden”")
-# ggsave("../figs/04-fig3-4-BASE-form-comparison.png",
+# ggsave("figs/04-fig3-4-BASE-form-comparison.png",
 #        units = "in",
 #        width = 8,
 #        height = 5.5,
@@ -128,7 +128,7 @@ grmlong |>
        x = "Genres in COCA",
        subtitle = "Distribution of the -*ing* verbal forms of “anger” and “madden”") +
   theme(legend.position = "bottom", plot.subtitle = ggtext::element_markdown())
-# ggsave("../figs/05-fig3-5-ING-form-comparison.png",
+# ggsave("figs/05-fig3-5-ING-form-comparison.png",
 #        units = "in",
 #        width = 8,
 #        height = 5.5,
@@ -147,7 +147,7 @@ grmlong |>
        x = "Genres in COCA",
        subtitle = "Distribution of the -*ed* verbal forms of “anger” and “madden”") +
   theme(legend.position = "bottom", plot.subtitle = ggtext::element_markdown())
-# ggsave("../figs/06-fig3-6-ED-form-comparison.png",
+# ggsave("figs/06-fig3-6-ED-form-comparison.png",
 #        units = "in",
 #        width = 8,
 #        height = 5.5,
@@ -166,7 +166,7 @@ grmlong |>
        x = "Genres in COCA",
        subtitle = "Distribution of the -*s* verbal forms of “anger” and “madden”") +
   theme(legend.position = "bottom", plot.subtitle = ggtext::element_markdown())
-# ggsave("../figs/07-fig3-7-S-form-comparison.png",
+# ggsave("figs/07-fig3-7-S-form-comparison.png",
 #        units = "in",
 #        width = 8,
 #        height = 5.5,
@@ -267,7 +267,7 @@ zz |>
   annotate("text", x = 1.6, y = -1.15, label = "Typical Experiencer collocates for “angry”", colour = "#014d64", fontface = "bold") +
   annotate("text", x = -0.6, y = 2.5, label = "Typical Experiencer collocates for “mad”", colour = "firebrick", fontface = "bold") +
   guides(color = guide_legend(override.aes = list(size = 6.5)))
-# ggsave("../figs/08-fig3-8-Experiencer-collocates.png",
+# ggsave("figs/08-fig3-8-Experiencer-collocates.png",
 #        units = "in",
 #        width = 10,
 #        height = 6.5,
@@ -335,13 +335,16 @@ stim_cxn_count |>
   labs(y = "Proportion",
        x = "Words",
        fill = "Constructional patterns")
-# ggsave("../figs/10-fig3-10-construction-for-stimulus.png",
+# ggsave("figs/10-fig3-10-construction-for-stimulus.png",
 #        units = "in",
 #        width = 6.5,
 #        height = 4,
 #        dpi = 600)
 
-stims_lemma <- udpipe::udpipe(stimulus$nouns, "english") |> 
+# stims_lemma <- udpipe::udpipe(stimulus$nouns, "english")
+# stims_lemma |>
+#   write_tsv("stims_lemma.tsv")
+stims_lemma <- read_tsv("stims_lemma.tsv") |> 
   as_tibble() |> 
   mutate(lemma = replace(lemma, lemma == "bannks", "bank")) |> 
   mutate(lemma = if_else(lemma %in% c("cars", "pets", "brows",
@@ -390,7 +393,7 @@ stims_lemma_over3 |>
   geom_curve(aes(y = -2.1, x = -0.5, yend = 1.7, xend = 1.6), alpha = .2, curvature = -.1, linewidth = .35, colour = "#014d64") +
   annotate("text", x = 0.6, y = -1.15, label = "More frequent Stimulus collocates for “angry”", colour = "#014d64", fontface = "bold", alpha = .5) +
   annotate("text", x = -0.5, y = 1.1, label = "More frequent Stimulus collocates for “mad”", colour = "firebrick", fontface = "bold", alpha = .5)
-# ggsave("../figs/09-fig3-9-Stimulus-collocates.png",
+# ggsave("figs/09-fig3-9-Stimulus-collocates.png",
 #        units = "in",
 #        width = 10,
 #        height = 6.5,
@@ -423,7 +426,7 @@ stims |>
         legend.text = element_text(size = 11),
         strip.text.x.top = element_text(size = 14),
         plot.caption = element_text(size = 11))
-# ggsave("../figs/11-fig3-11-Stimulus-collocates-and-construction.png",
+# ggsave("figs/11-fig3-11-Stimulus-collocates-and-construction.png",
 #        units = "in",
 #        width = 9,
 #        height = 7.25,
