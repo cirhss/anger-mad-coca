@@ -1,0 +1,53 @@
+word	pattern	expr	freq	noun	lemma	sem
+mad	mad at NOUN	MAD AT ME	39	ME	me	kinship
+mad	mad at NOUN	MAD AT PEOPLE	30	PEOPLE	people	kinship
+mad	mad at NOUN	MAD AT DAD	18	DAD	dad(dy)	kinship
+mad	mad at NOUN	MAD AT DADDY	17	DADDY	dad(dy)	kinship
+mad	mad at NOUN	MAD AT PRESIDENT	15	PRESIDENT	president	modern world
+mad	mad at NOUN	MAD AT MOM	11	MOM	mom(my)	kinship
+mad	mad at NOUN	MAD AT CONGRESS	10	CONGRESS	congress	modern world
+mad	mad at NOUN	MAD AT MOMMY	6	MOMMY	mom(my)	kinship
+mad	mad at NOUN	MAD AT US	4	US	us	kinship
+mad	mad about NOUN	MAD ABOUT THINGS	6	THINGS	thing	possession
+mad	mad about NOUN	MAD ABOUT OSCAR	3	OSCAR	oscar	kinship
+mad	mad about NOUN	MAD ABOUT BENEFIT	3	BENEFIT	benefit	modern world
+mad	mad with NOUN	MAD WITH GRIEF	31	GRIEF	grief	emotion and values
+mad	mad with NOUN	MAD WITH POWER	16	POWER	power	social and political relation
+mad	mad with NOUN	MAD WITH FEAR	10	FEAR	fear	emotion and values
+mad	mad with NOUN	MAD WITH JOY	8	JOY	joy	emotion and values
+mad	mad with NOUN	MAD WITH JEALOUSY	8	JEALOUSY	jealousy	emotion and values
+mad	mad with NOUN	MAD WITH RAGE	6	RAGE	rage	emotion and values
+mad	mad with NOUN	MAD WITH LOVE	6	LOVE	love	emotion and values
+mad	mad with NOUN	MAD WITH EXCITEMENT	6	EXCITEMENT	excitement	emotion and values
+mad	mad with NOUN	MAD WITH DESIRE	6	DESIRE	desire	emotion and values
+mad	mad with NOUN	MAD WITH BOREDOM	5	BOREDOM	boredom	emotion and values
+mad	mad with NOUN	MAD WITH HUNGER	4	HUNGER	hunger	food and drink
+mad	mad with NOUN	MAD WITH PAIN	4	PAIN	pain	emotion and values
+angry	angry at NOUN	ANGRY AT PEOPLE	32	PEOPLE	people	kinship
+angry	angry at NOUN	ANGRY AT TIMES	26	TIMES	time	time
+angry	angry at NOUN	ANGRY AT PRESIDENT	15	PRESIDENT	president	modern world
+angry	angry at NOUN	ANGRY AT WOMEN	12	WOMEN	woman	kinship
+angry	angry at NOUN	ANGRY AT ME	9	ME	me	kinship
+angry	angry at NOUN	ANGRY AT LIFE	5	LIFE	life	the body
+angry	angry at NOUN	ANGRY AT DAD	4	DAD	dad(dy)	kinship
+angry	angry at NOUN	ANGRY AT GOVERNMENT	4	GOVERNMENT	government	modern world
+angry	angry at NOUN	ANGRY AT GOD	4	GOD	god	religion and belief
+angry	angry at NOUN	ANGRY AT DR	4	DR	dr	modern world
+angry	angry at NOUN	ANGRY AT INJUSTICE	4	INJUSTICE	injustice	law
+angry	angry at NOUN	ANGRY AT MR	4	MR	mr	kinship
+angry	angry with NOUN	ANGRY WITH PEOPLE	14	PEOPLE	people	kinship
+angry	angry with NOUN	ANGRY WITH ME	9	ME	me	kinship
+angry	angry with NOUN	ANGRY WITH PRESIDENT	6	PRESIDENT	president	modern world
+angry	angry with NOUN	ANGRY WITH RAGE	3	RAGE	rage	emotion and values
+angry	angry with NOUN	ANGRY WITH SCHOOL	3	SCHOOL	school	cognition
+angry	angry with NOUN	ANGRY WITH WOMEN	3	WOMEN	woman	kinship
+angry	angry with NOUN	ANGRY WITH BANKS	3	BANKS	bank	modern world
+angry	angry about NOUN	ANGRY ABOUT THINGS	11	THINGS	thing	possession
+angry	angry about NOUN	ANGRY ABOUT TAXES	3	TAXES	tax	possession
+angry	angry about NOUN	ANGRY ABOUT STUFF	3	STUFF	stuff	possession
+angry	angry about NOUN	ANGRY ABOUT PRESIDENT	3	PRESIDENT	president	modern world
+angry	angry about NOUN	ANGRY ABOUT POLITICS	3	POLITICS	politics	modern world
+angry	angry about NOUN	ANGRY ABOUT GOVERNMENT	3	GOVERNMENT	government	modern world
+angry	angry over NOUN	ANGRY OVER THINGS	4	THINGS	thing	possession
+angry	angry over NOUN	ANGRY OVER PRESIDENT	3	PRESIDENT	president	modern world
+angry	angry over NOUN	ANGRY OVER WAR-CRIMINALS	3	WAR-CRIMINALS	war-criminal	social and political relation

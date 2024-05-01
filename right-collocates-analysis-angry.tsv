@@ -1,0 +1,73 @@
+coll	lemma	sem_orig	sem	sem2	experiencer	w1	w2	w1_w2	score	word	attraction
+BIRDS	bird	animals	animals	NA	y	755	1	755	580.3	angry	light_green
+MOB	mob	group	social and political relation	group	y	302	0	604	464.2	angry	light_green
+CROWD	crowd	group	social and political relation	group	y	130	0	260	199.8	angry	light_green
+RESPONSE	response	-	speech and language	NA	NA	98	0	196	150.6	angry	light_green
+LETTER	letter	-	speech and language	NA	NA	83	0	166	127.6	angry	light_green
+REACTION	reaction	-	action	NA	NA	77	0	154	118.4	angry	light_green
+PROTESTERS	protester	group	social and political relation	group	y	72	0	144	110.7	angry	light_green
+PROTESTS	protest	-	speech and language	NA	NA	71	0	142	109.1	angry	light_green
+MOBS	mob	group	social and political relation	group	y	70	0	140	107.6	angry	light_green
+RESIDENTS	resident	group	social and political relation	group	y	66	0	132	101.5	angry	light_green
+VOTERS	voter	group	social and political relation	group	y	59	0	118	90.7	angry	light_green
+CROWDS	crowd	group	social and political relation	group	y	53	0	106	81.5	angry	light_green
+CUSTOMERS	customer	group	social and political relation	group	y	47	0	94	72.2	angry	light_green
+CITIZENS	citizen	group	social and political relation	group	y	46	0	92	70.7	angry	light_green
+LETTERS	letter	-	speech and language	NA	NA	91	1	91	69.9	angry	light_green
+WORDS	word	-	speech and language	NA	NA	150	2	75	57.6	angry	light_green
+VOICES	voice	-	speech and language	NA	NA	73	1	73	56.1	angry	light_green
+PROTEST	protest	-	speech and language	NA	NA	36	0	72	55.3	angry	light_green
+PARENTS	parent	kinship	kinship	NA	y	70	1	70	53.8	angry	light_green
+SHOUTS	shout	-	speech and language	NA	NA	35	0	70	53.8	angry	light_green
+HUSBAND	husband	kinship	kinship	NA	y	34	0	68	52.3	angry	light_green
+TEARS	tear	-	emotion and values	NA	NA	33	0	66	50.7	angry	light_green
+DEBATE	debate	-	speech and language	NA	NA	33	0	66	50.7	angry	light_green
+BEES	bee	animals	animals	NA	y	32	0	64	49.2	angry	light_green
+RESPONSES	response	-	speech and language	NA	NA	32	0	64	49.2	angry	light_green
+E-MAILS	email	-	speech and language	NA	NA	31	0	62	47.7	angry	light_green
+DEMONSTRATORS	demonstrator	group	social and political relation	group	y	31	0	62	47.7	angry	light_green
+COMMENTS	comment	-	speech and language	NA	NA	61	1	61	46.9	angry	light_green
+EXPRESSION	expression	-	speech and language	NA	NA	29	0	58	44.6	angry	light_green
+DEMONSTRATIONS	demonstration	-	speech and language	NA	NA	28	0	56	43	angry	light_green
+TONE	tone	-	speech and language	NA	NA	52	1	52	40	angry	light_green
+THOUGHTS	thought	-	cognition	NA	NA	24	0	48	36.9	angry	light_green
+EMAILS	email	-	speech and language	NA	NA	24	0	48	36.9	angry	light_green
+EXCHANGES	exchange	-	speech and language	NA	NA	21	0	42	32.3	angry	light_green
+YOUTH	youth	-	kinship	group	y	21	0	42	32.3	angry	light_green
+STARE	stare	-	sense perception	NA	NA	20	0	40	30.7	angry	light_green
+INVESTORS	investor	group	social and political relation	group	y	20	0	40	30.7	angry	light_green
+MOMS	mom	-	kinship	person	y	20	0	40	30.7	angry	light_green
+NOTE	note	-	speech and language	NA	NA	20	0	40	30.7	angry	light_green
+PARENT	parent	kinship	kinship	person	y	20	0	40	30.7	angry	light_green
+CONSTITUENTS	constituent	-	social and political relation	group	y	20	0	40	30.7	angry	light_green
+E-MAIL	email	-	speech and language	NA	NA	20	0	40	30.7	angry	light_green
+FANS	fans	group	social and political relation	group	y	36	1	36	27.7	angry	light_green
+RHETORIC	rhetoric	-	speech and language	NA	NA	33	1	33	25.4	angry	light_green
+REACTIONS	reaction	-	action	NA	NA	32	1	32	24.6	angry	light_green
+GLARE	glare	-	sense perception	NA	NA	31	1	31	23.8	angry	light_green
+MOOD	mood	-	emotion and values	NA	NA	24	1	24	18.4	angry	light_green
+VOICE	voice	-	speech and language	NA	NA	115	5	23	17.7	angry	light_green
+DRIVERS	driver	-	social and political relation	group	y	23	1	23	17.7	angry	light_green
+GOD	god	-	religion and belief	person	y	65	3	21.7	16.7	angry	light_green
+QUESTIONS	question	-	speech and language	NA	NA	21	1	21	16.1	angry	light_green
+FATHER	father	kinship	kinship	person	y	39	2	19.5	15	angry	light_green
+FEELINGS	feeling	-	emotion and values	NA	NA	69	4	17.3	13.3	angry	light_green
+FACES	face	-	the body	NA	NA	32	2	16	12.3	angry	light_green
+GROUP	group	group	social and political relation	group	y	29	2	14.5	11.1	angry	light_green
+PHONE	phone	-	speech and language	NA	NA	43	3	14.3	11	angry	light_green
+BIRD	bird	animals	animals	NA	y	40	3	13.3	10.2	angry	light_green
+GHOST	ghost	-	religion and belief	person	y	20	2	10	7.7	angry	green
+KID	kid	kinship	kinship	person	y	27	3	9	6.9	angry	green
+LOOK	look	-	sense perception	NA	NA	97	11	8.8	6.8	angry	green
+CHILD	child	kinship	kinship	person	y	34	4	8.5	6.5	angry	green
+CALLS	call	-	speech and language	NA	NA	32	4	8	6.1	angry	green
+FACE	face	-	the body	NA	NA	82	11	7.5	5.7	angry	green
+PERSON	person	kinship	kinship	person	y	103	14	7.4	5.7	angry	green
+GUY	guy	-	kinship	person	y	53	8	6.6	5.1	angry	green
+SEA	sea	-	the physical world	NA	NA	23	4	5.8	4.4	angry	green
+PEOPLE	people	social and political relation	kinship	group	y	301	54	5.6	4.3	angry	green
+EYES	eye	-	the body	NA	NA	63	12	5.3	4	angry	green
+WIFE	wife	kinship	kinship	person	y	37	10	3.7	2.8	angry	green
+BULL	bull	animals	animals	NA	y	22	6	3.7	2.8	angry	green
+MOTHER	mother	kinship	kinship	person	y	24	8	3	2.3	angry	green
+DAD	dad	kinship	kinship	person	y	21	7	3	2.3	angry	green

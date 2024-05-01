@@ -1,0 +1,30 @@
+coll	lemma	sem_orig	sem	sem2	experiencer	w1	w2	w1_w2	score	word	attraction
+SCIENTIST	scientist	-	social and political relation	person	y	411	0	822	1069.5	mad	light_green
+HATTER	hatter	-	social and political relation	person	y	175	0	350	455.4	mad	light_green
+COW	cow	animals	animals	NA	y	643	2	321.5	418.3	mad	light_green
+SCIENTISTS	scientist	-	social and political relation	group	y	125	0	250	325.3	mad	light_green
+BOMBER	bomber	group	social and political relation	person	y	45	0	90	117.1	mad	light_green
+MAGAZINE	magazine	-	speech and language	NA	NA	165	2	82.5	107.3	mad	light_green
+PROPS	prop	-	speech and language	NA	NA	39	0	78	101.5	mad	light_green
+TV	tv	-	speech and language	NA	NA	68	1	68	88.5	mad	light_green
+RIVER	river	the physical world	the physical world	NA	NA	312	5	62.4	81.2	mad	light_green
+GENIUS	genius	-	cognition	NA	NA	61	1	61	79.4	mad	light_green
+SKILLS	skill	-	cognition	NA	NA	54	1	54	70.3	mad	light_green
+MAX	max	-	social and political relation	person	y	26	0	52	67.7	mad	light_green
+CRUSH	crush	food and drink	emotion and values	NA	NA	25	0	50	65.1	mad	light_green
+RESPECT	respect	emotions and values	emotion and values	NA	NA	25	0	50	65.1	mad	light_green
+RUSH	rush	-	motion	NA	NA	136	3	45.3	59	mad	light_green
+QUEEN	queen	social and political relation	social and political relation	person (royal)	y	43	1	43	55.9	mad	light_green
+BASTARD	bastard	kinship	kinship	NA	y	21	0	42	54.6	mad	light_green
+DOG	dog	animals	animals	NA	y	636	17	37.4	48.7	mad	light_green
+MONEY	money	possession	possession	NA	NA	112	3	37.3	48.6	mad	light_green
+WORLD	world	the physical world	the physical world	NA	NA	100	4	25	32.5	mad	light_green
+KING	king	social and political relation	social and political relation	person (royal)	y	132	8	16.5	21.5	mad	light_green
+LOVE	love	emotions and values	emotion and values	NA	NA	63	5	12.6	16.4	mad	light_green
+DOCTOR	doctor	-	social and political relation	person	y	43	4	10.8	14	mad	light_green
+DOGS	dog	animals	animals	NA	y	75	7	10.7	13.9	mad	light_green
+SCENE	scene	-	sense perception	NA	NA	24	3	8	10.4	mad	light_green
+CAUSE	cause	cognition	cognition	NA	NA	22	3	7.3	9.5	mad	green
+MEN	man	-	kinship	group	y	1106	188	5.9	7.7	mad	green
+THING	thing	possession	possession	NA	NA	22	4	5.5	7.2	mad	green
+HOUSE	house	the house	the house	NA	NA	26	8	3.3	4.2	mad	green
