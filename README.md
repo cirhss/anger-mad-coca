@@ -1,5 +1,13 @@
+Supplementary materials for “Exploring Grammatical and Semantic Profiles
+of ANGRY and MAD: A Corpus-based Study”
+================
+Ida Ayu Saskara Tranggana Suari, Gede Primahadi Wijaya Rajeg
+<a itemprop="sameAs" content="https://orcid.org/0000-0002-2047-8621" href="https://orcid.org/0000-0002-2047-8621" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>,
+and I Nengah Sudipa
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11108458.svg)](https://doi.org/10.5281/zenodo.11108458)
 
 # Overview
 
@@ -20,7 +28,7 @@ to the students.
 
   - conceptualise, design, and conduct the study and analyses
 
-  - retrieve the relevant data from COCA
+  - retrieve and organise the relevant data from COCA
 
   - perform semantic annotation on the collocate data
 
@@ -67,7 +75,8 @@ Primahadi Wijaya Rajeg include:
 
 The works of these students represent the pedagogical pre-cursors for
 the newly established research group called *Computer-assisted
-Lexicology and Lexicography* (*CompLexico*) (led by Gede Primahadi
+Lexicology and Lexicography*
+([*CompLexico*](https://github.com/complexico)) (led by Gede Primahadi
 Wijaya Rajeg), which is a sub-group within
 [CIRHSS](http://www.cirhss.org) at the Faculty of Humanities, Udayana
 University.

@@ -1,5 +1,7 @@
 ---
 output: github_document
+title: "Supplementary materials for “Exploring Grammatical and Semantic Profiles of ANGRY and MAD: A Corpus-based Study”"
+author: 'Ida Ayu Saskara Tranggana Suari, Gede Primahadi Wijaya Rajeg <a itemprop="sameAs" content="https://orcid.org/0000-0002-2047-8621" href="https://orcid.org/0000-0002-2047-8621" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>, and I Nengah Sudipa'
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -11,6 +13,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11108458.svg)](https://doi.org/10.5281/zenodo.11108458)
+
 # Overview
 
 The paper cited as part of this repository is the output of the undergraduate thesis by Ida Ayu Saskara Tranggana Suari (first author; Gede Primahadi Wijaya Rajeg [second author, associate supervisor]; I Nengah Sudipa [third author, main supervisor]). Tranggana Suari's work explored grammatical/morphological and semantic profiles of ANGRY/ANGER and MAD(DEN) based on data from the *Corpus of Contemporary American English* (COCA). The thesis is one of the outcome from a number of current and past students taking the English Lexicology and Lexicography course taught by Gede Primahadi Wijaya Rajeg, who also introduced COCA to the students. 
@@ -21,7 +25,7 @@ The paper cited as part of this repository is the output of the undergraduate th
 
     - conceptualise, design, and conduct the study and analyses
     
-    - retrieve the relevant data from COCA
+    - retrieve and organise the relevant data from COCA
     
     - perform semantic annotation on the collocate data
     
@@ -51,4 +55,4 @@ The other and currently related undergraduate-student thesis-and-article project
 
 - Christina (2021) ([thesis](https://doi.org/10.6084/m9.figshare.19665804); [data](https://doi.org/10.6084/m9.figshare.14701392))
 
-The works of these students represent the pedagogical pre-cursors for the newly established research group called *Computer-assisted Lexicology and Lexicography* (*CompLexico*) (led by Gede Primahadi Wijaya Rajeg), which is a sub-group within [CIRHSS](http://www.cirhss.org) at the Faculty of Humanities, Udayana University.
+The works of these students represent the pedagogical pre-cursors for the newly established research group called *Computer-assisted Lexicology and Lexicography* ([*CompLexico*](https://github.com/complexico)) (led by Gede Primahadi Wijaya Rajeg), which is a sub-group within [CIRHSS](http://www.cirhss.org) at the Faculty of Humanities, Udayana University.
