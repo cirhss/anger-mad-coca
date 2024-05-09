@@ -11,16 +11,18 @@ and I Nengah Sudipa
 
 # Overview
 
-The paper cited as part of this repository is the output of the
+The paper mentioned as part of this repository is the output of the
 undergraduate thesis by Ida Ayu Saskara Tranggana Suari (first author;
 Gede Primahadi Wijaya Rajeg \[second author, associate supervisor\]; I
 Nengah Sudipa \[third author, main supervisor\]). Tranggana Suari’s work
 explored grammatical/morphological and semantic profiles of ANGRY/ANGER
 and MAD(DEN) based on data from the *Corpus of Contemporary American
-English* (COCA). The thesis is one of the outcome from a number of
-current and past students taking the English Lexicology and Lexicography
-course taught by Gede Primahadi Wijaya Rajeg, who also introduced COCA
-to the students.
+English* ([COCA](https://www.english-corpora.org/coca/)).
+
+The thesis is one of the outcome from a number of [current and past
+students](https://github.com/complexico/anger-mad-coca?tab=readme-ov-file#related-undergraduate-student-projects)
+taking the English Lexicology and Lexicography course taught by Gede
+Primahadi Wijaya Rajeg, who also introduced COCA to the students.
 
 ### Contribution
 
@@ -38,11 +40,12 @@ to the students.
 
   - conceptualise the study
 
-  - created the visualisations in R ([code
+  - created the
+    [visualisations](https://github.com/complexico/anger-mad-coca/tree/main/figs)
+    in R ([code
     file](https://github.com/cirhss/anger-mad-coca/blob/main/analyses.R))
-    from the gathered and analysed data
 
-  - check the semantic annotation on the collocate data
+  - check the semantic annotation on the data
 
   - edit the manuscript
 
@@ -50,15 +53,16 @@ to the students.
 
   - edit the manuscript
 
-## Related works
+## Related undergraduate student projects
 
 The other and currently related undergraduate-student thesis-and-article
 project is by I Gede Semara Dharma Putra ([paper
 repository](https://github.com/gederajeg/verb-noun-association); [thesis
 dataset](https://doi.org/10.6084/m9.figshare.25560714)), who combined
-corpus-based data from COCA and experimental data to explore
+corpus-based data from COCA and preliminary experimental data to explore
 divergence/convergence in the verb-noun association (supervised by Gede
 Primahadi Wijaya Rajeg \[main\] and Ketut Santi Indriani \[associate\]).
+
 Previous corpus-based works by undergraduate students supervised by Gede
 Primahadi Wijaya Rajeg include:
 
@@ -74,9 +78,9 @@ Primahadi Wijaya Rajeg include:
   [data](https://doi.org/10.6084/m9.figshare.14701392))
 
 The works of these students represent the pedagogical pre-cursors for
-the newly established research group called *Computer-assisted
-Lexicology and Lexicography*
-([*CompLexico*](https://github.com/complexico)) (led by Gede Primahadi
-Wijaya Rajeg), which is a sub-group within
-[CIRHSS](http://www.cirhss.org) at the Faculty of Humanities, Udayana
+the [*CompLexico*](https://www.cirhss.org/complexico/)
+(*Computer-assisted Lexicology and Lexicography*) research group, led by
+Gede Primahadi Wijaya Rajeg. *CompLexico* is part of the *Centre for
+Interdisciplinary Research on the Humanities and Social Sciences*
+([CIRHSS](http://www.cirhss.org)) at the Faculty of Humanities, Udayana
 University.
