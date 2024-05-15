@@ -11,13 +11,22 @@ and I Nengah Sudipa
 
 # Overview
 
-The paper mentioned as part of this repository is the output of the
-undergraduate thesis by Ida Ayu Saskara Tranggana Suari (first author;
-Gede Primahadi Wijaya Rajeg \[second author, associate supervisor\]; I
-Nengah Sudipa \[third author, main supervisor\]). Tranggana Suari’s work
-explored grammatical/morphological and semantic profiles of ANGRY/ANGER
-and MAD(DEN) based on data from the *Corpus of Contemporary American
+The paper ([preprint](https://doi.org/10.6084/m9.figshare.25749681))
+mentioned as part of this repository is the output of the undergraduate
+thesis by Ida Ayu Saskara Tranggana Suari (first author; Gede Primahadi
+Wijaya Rajeg \[second author, associate supervisor\]; I Nengah Sudipa
+\[third author, main supervisor\]). Tranggana Suari’s work explored
+grammatical/morphological and semantic profiles of ANGRY/ANGER and
+MAD(DEN) based on data from the *Corpus of Contemporary American
 English* ([COCA](https://www.english-corpora.org/coca/)).
+
+> Suari, Ida Ayu Saskara Tranggana, Gede Primahadi Wijaya Rajeg & I
+> Nengah Sudipa. [*to
+> appear*](https://drive.google.com/file/d/1NlkT2LvDFPkCcBSrkBhjV0OPHwdWhy1J/view?usp=sharing).
+> Exploring Grammatical and Semantic Profiles of ANGRY and MAD: A
+> Corpus-based Study. *EJI* (*English Journal of Indragiri*)*: Studies
+> in Education, Literature, and Linguistics*. 8(2).
+> <https://doi.org/10.6084/m9.figshare.25749681>
 
 The thesis is one of the outcome from a number of [current and past
 students](https://github.com/complexico/anger-mad-coca?tab=readme-ov-file#related-undergraduate-student-projects)
